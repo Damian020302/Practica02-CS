@@ -1,5 +1,5 @@
 #include <stdio.h>
-# include <string.h>
+#include <string.h>
 
 int secretMsg()
 {
@@ -14,7 +14,7 @@ int main()
     printf("Anota una palabra e intenta descubrir el secreto: \n");
     gets(pass);
 
-    if(pass[0] == ’\0’)
+    if(pass[0] == '\0')
     {
         printf("No lo lograste. Intenta de nuevo");
         return 0;
